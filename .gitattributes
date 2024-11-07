@@ -1,0 +1,15 @@
+# Set the default behavior, in case files match no other rules in this file.
+* text=auto
+
+# Explicitly declare text files you want to always be normalized and converted to native line endings on checkout.
+*.css text
+*.js text
+*.jsx text
+*.json text
+*.md text
+*.html text
+
+# Denote all files that are truly binary and should not be modified.
+*.png binary
+*.jpg binary
+*.gif binary
